@@ -14,7 +14,7 @@ const app = express();
 const port = 3000;
 
 
-/*Por padão express recebe as requisições e devolve como texto.
+/*Por padrão o express recebe as requisições e devolve como texto.
 Mas para o padrão do dia a dia precisamos trabalhar com json.
 Esse comando abaixo, faz com que todas as requisições e respostas do servidor, sejam em json */
 app.use(express.json());
